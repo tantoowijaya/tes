@@ -1,7 +1,8 @@
 <?php 
 
 	include 'connect.php';
-
+	
+	//Get the submit button
 	if(isset($_POST['submit'])){
 		$task = $_POST['task'];
 		if(empty($task)){
