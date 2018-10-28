@@ -1,7 +1,8 @@
 <?php 
 
 	include'connect.php';
-
+	
+	//get the id value that want to delete.
 	$myid = $_GET['del_id'];
 	if($myid == true ){
 		$sql = "DELETE FROM admin WHERE id = $myid";
